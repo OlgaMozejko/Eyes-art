@@ -1,0 +1,29 @@
+html, 
+body {
+    background: linear-gradient(rgb(241, 241, 255), rgb(250, 235, 237));
+    height: 100vh;
+    width: 100vw;
+}
+
+.canvas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: 100vw;
+}
+
+#eyes_canvas {
+    width: 600px;
+    height: 600px;
+    margin: 40px;
+}
+
+#start_button {
+    width: 100px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+}
